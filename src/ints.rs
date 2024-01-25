@@ -2,6 +2,10 @@ use serde::{Deserialize, Serialize};
 
 use crate::AppendOnly;
 
+/// Integer transitions
+///
+/// This enum is used to represent the different types of transitions that can
+/// be applied to "integer types".
 #[non_exhaustive]
 #[derive(Debug, Serialize, Deserialize)]
 pub enum IntegerTransitions<T> {
