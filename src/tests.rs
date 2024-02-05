@@ -4,7 +4,6 @@ use std::io::Cursor;
 
 use crate::{ints::IntegerTransitions, Database};
 
-// Database that stores a counter
 #[test]
 fn test_counter() {
     type Transition = IntegerTransitions<i32>;
